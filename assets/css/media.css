@@ -1,0 +1,32 @@
+@media screen and (max-width:700px) {
+    a.barra {
+        display: block;
+        padding-right: 3.8rem;
+        color: var(--colornavtext);
+    }
+
+    .opciones {
+        display: none;
+    }
+
+    nav>.izq {
+        display: block;
+        width: 80vw;
+    }
+
+    div.der {
+        display: flex;
+        width: 20vw;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav .izq li{
+        font-size: 4vw;
+    }
+}
